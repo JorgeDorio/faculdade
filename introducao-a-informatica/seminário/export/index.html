@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Reveal JS presentation</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reveal.css">
+
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <!-- highlight Theme -->
+  	
+	  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+	
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
+	
+	
+	
+		<link rel="stylesheet" href="libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
+	
+	<link rel="stylesheet" href="libs/styles/tasklist.css">
+
+
+
+  <!-- Revealjs Theme -->
+  
+  	<link rel="stylesheet" href="libs/reveal.js/4.1.3/theme/black.css" id="theme">
+  
+  
+
+
+  <!-- Revealjs Theme -->
+  
+
+ 
+</head>
+
+<body>
+  
+
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h1>Memória RAM</h1>
+<p>Memória Principal / Random Access Memory</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Memória RAM</h3>
+<ul>
+<li>Armazenamento Volátil</li>
+<li>Feita de semi-condutores</li>
+<li>Mais performática que o HD
+<ul>
+<li>Carrega os arquivos do HD ou da rede</li>
+<li>Parte Ativa do OS, softwares e dados</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Memória Cache</h3>
+<ul>
+<li>SRAM
+<ul>
+<li>Mais performática que a memória principal</li>
+<li>Copia dados e instruções da memória RAM</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Comunicação MP - Processador</h3>
+<ul>
+<li>Leitura / Escrita</li>
+</ul>
+<h1><img src="./images/comunicacao.png"></h1>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>SRAM</h1>
+<p>Static Random Access Memory</p>
+<p>Memória RAM Estática</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>SRAM</h3>
+<ul>
+<li>Célula: Circuitos com 6 transistores (flip-flops)</li>
+<li>Dados armazenados</li>
+<li>Maior, mais cara e com menos capacidade de armazenamento</li>
+<li>Memória Cache</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>DRAM</h1>
+<p>Dynamic Random Access Memory</p>
+<p>Memória RAM Dinâmica</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>DRAM</h3>
+<ul>
+<li>Célula: um transistor e um capacitor</li>
+<li>Precisa receber “Refresh”</li>
+<li>Menor, mais barata e com maior capacidade de armazenamento</li>
+<li>Memória Principal</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>DRAM VS SRAM</h3>
+<img src="./images/DRAMxSRAM.png">
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>FPM DRAM</h1>
+<p>Fast Page Mode</p>
+<p>Modo de Operação Rapida</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Memória FPM</h3>
+<ul>
+<li>Controlador de memória faz
+até 4 acessos em sequência à DRAM</li>
+<li>Usabilidade</li>
+</ul>
+<!-- <img src="./images/FPM.jpeg"> -->
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>EDO DRAM</h1>
+<p>Extend Data Output</p>
+<p>Saída Extendida de Dados</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Memória EDO</h3>
+<ul>
+<li>Trabalho em pares</li>
+<li>Acesso simultâneo a novas posições de memória
+enquanto os dados estão sendo lidos na saída</li>
+</ul>
+<!-- <img src="./images/EDO.png"> -->
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>BEDO DRAM</h1>
+<p>Burst EDO</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Memória BEDO</h3>
+<ul>
+<li>Circuito de memória raro</li>
+<li>Possui registrador e
+gerador interno de endereços
+sequenciais</li>
+</ul>
+<!-- <img src="./images/BEDO.jpeg"> -->
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>SDRAM</h1>
+<p>Synchronous DRAM</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>SDRAM</h3>
+<ul>
+<li>Trabalha na frequencia do sistema</li>
+<li>Alta performace</li>
+<li>Acesso a memória coordenado pelo clock do sistema</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>DDR SDRAM</h3>
+<p>Double Data Rate SDRAM</p>
+<p>Transfere dados na subida e descida do clock</p>
+<img width="80%" src="./images/SDRvsDDR.webp">
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h1>DR RRAM</h1>
+<p>Direct Rambus DRAM</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>DR DRAM</h3>
+<ul>
+<li>Padrão proprietário da Rambus Inc.</li>
+<li>Transferência de dados na subida e descida
+do clock</li>
+<li>Usa o Direct Rambus Channel (barramento estreito permite estas taxas altas)</li>
+<li>Barramento de 16 Bits</li>
+</ul>
+<img width="60%" src="./images/DRDRAMvsDRAM.jpeg">
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <img src="./images/comparador.png">
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>Referência:</p>
+<ul>
+<li>
+<p><a href="https://www.cin.ufpe.br/~can/Arquivos/infra-hw-hierarquia2-07-1.pdf">Hierarquia de memória - UFPE</a></p>
+</li>
+<li>
+<p>Arquitetura de Computadores – PCs</p>
+<p>Livro por RENATO RODRIGUES PAIXAO</p>
+</li>
+<li>
+<p>Sistemas de Computação. [s.l: s.n.]. <a href="http://www.ic.uff.br/~simone/sistemascomp/contaulas/9_MEM.pdf">Link</a></p>
+</li>
+<li>
+<p>Diferença entre SRAM e DRAM. <a href="https://pt.spot-the-difference.info/difference-between-sram">Link</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=WdENjKNMWcc">Como funcionam as Memórias RAM? DRAM e SRAM | Cybee Info #02
+</a></p>
+</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>Tecnologia em Análise e Desevolvimento de Sistemas</p>
+<p>Introdução a Informática - UTFPR - PB - 2022</p>
+<hr>
+<p>Jorge Dorio</p>
+<p>Fernando Loff</p>
+<p>Renan Matos</p>
+<p>Gabriel Conte</p>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  	
+	<script src="libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/search/search.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/math/math.js"></script>
+
+	<script src="libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
+  
+  	<script src="libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
+  	<script src="libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
+  
+  	<script src="libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script>
+	  <script src="libs/reveal.js/4.1.3/plugin/anything/Chart.min.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/d3.v3.min.js"></script>				
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3.patch.js"></script>			
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/queue.v1.min.js"></script>		
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/topojson.v1.min.js"></script>		
+	<script src="libs/reveal.js/4.1.3/plugin/anything/function-plot.js"></script>
+
+ <!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+<script src="libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
+
+	<script src="libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
+
+  <script>
+
+		const printPlugins = [
+			RevealNotes, 
+			RevealHighlight,
+			RevealMath,
+			RevealAnimate,
+			RevealChalkboard, 
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			controlsTutorial: true,
+			controlsLayout: 'bottom-right',
+			controlsBackArrows: 'faded',
+			progress: true,
+			slideNumber: false,
+			//#showSlideNumber "all" "print" "speaker"
+			hash: true,//#  hash: false,
+			//# respondToHashChanges: true,
+			//# history: false,
+			keyboard: true,
+			//#keyboardCondition: null,
+			overview: true,
+			center: true,
+			touch: true,
+			loop: false,
+			rtl: false,
+			//#navigationMode: 'default', linear grid
+			shuffle: false,
+			fragments: true,
+			fragmentInURL: false,
+			embedded: false,
+			help: true,
+			//#pause: true
+			showNotes: false,
+			autoPlayMedia: false, // TODO fix this to a nullable value
+			//#preloadIframes: null. true false
+			//#autoAnimate: true
+			//#autoAnimateMatcher: null,
+			//#autoAnimateEasing: 'ease',
+			//autoAnimateDuration: 1.0,
+			//#autoAnimateUnmatched: true
+			//#autoAnimateStyles: []
+			autoSlide: 0, // TODO fix this to a falseable value
+			autoSlideStoppable: true,
+			autoSlideMethod: '0',
+			defaultTiming: 120,
+			mouseWheel: false,
+			//#previewLinks: false
+			//#postMessage: true,  // TODO : this can cause issues with the vscode api ???
+			//#postMessageEvents: false,
+			//#focusBodyOnPageVisibilityChange: true,
+			transition: 'slide',
+			transitionSpeed: 'default',
+			backgroundTransition: 'fade',
+			//#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+			//#pdfSeparateFragments: true,
+			//#pdfPageHeightOffset: -1,
+			viewDistance: 3,
+			//#mobileViewDistance: 2,
+			display: 'block',
+			//#hideInactiveCursor: true,
+			//#hideCursorTime: 5000
+
+			// Parallax Background
+			parallaxBackgroundImage: '',
+			parallaxBackgroundSize: '',
+			parallaxBackgroundHorizontal: 0,
+			parallaxBackgroundVertical: 0,
+			
+			//Presentation Size
+			width: 960,
+			height: 700,
+			margin: 0.04,
+			minScale: 0.2,
+			maxScale: 2,
+			disableLayout: false,
+
+			audio: {
+				prefix: 'audio/', 	// audio files are stored in the "audio" folder
+				suffix: '.ogg',		// audio files have the ".ogg" ending
+				textToSpeechURL: null,  // the URL to the text to speech converter
+				defaultNotes: false, 	// use slide notes as default for the text to speech converter
+				defaultText: false, 	// use slide text as default for the text to speech converter
+				advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+				autoplay: false,	// automatically start slideshow
+				defaultDuration: 5,	// default duration in seconds if no audio is available
+				defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+				playerOpacity: 0.05,	// opacity value of audio player if unfocused
+				playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+				startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+			},
+			
+			chalkboard: { // font-awesome.min.css must be available
+					//src: "chalkboard/chalkboard.json",
+					storage: "chalkboard-demo",
+				},
+			
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+						{ icon: '<i class="fa fa-pen-square"></i>',
+						  title: 'Toggle chalkboard (B)',
+						  action: 'RevealChalkboard.toggleChalkboard();'
+						},
+						{ icon: '<i class="fa fa-pen"></i>',
+						  title: 'Toggle notes canvas (C)',
+						  action: 'RevealChalkboard.toggleNotesCanvas();'
+						}
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+		
+
+	</script>
+
+</body>
+
+</html>
