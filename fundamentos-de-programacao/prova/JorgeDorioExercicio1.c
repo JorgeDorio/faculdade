@@ -2,6 +2,7 @@
 
 int main(void)
 {
+  // Inicialização das variaveis
   int num = 0, soma = 0, somaTotal = 0, i = 0, j = 0, ultimoImpar = 1;
 
   printf("Informe um numero: ");

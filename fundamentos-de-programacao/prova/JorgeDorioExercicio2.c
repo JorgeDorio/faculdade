@@ -4,7 +4,9 @@ int main(void)
 {
   char repetir = 's';
 
+  // Repete ate que o usuario insira um valor diferente de 's' ou 'S'
   do {
+    // Quebrei a linha nos && pois é um mal costume manter linhas com mais que 100 caracteres, e torna o código mais legivel ( Costume de JavaScript )
     int
     limiteInferior = 0,
     limiteSuperior = 0,
@@ -16,11 +18,13 @@ int main(void)
     n3 = 0,
     soma = 0;
 
+    // Solicita o intervalo inferior e o superior 
     printf("\nInforme o valor do limite inferior do intervalo: ");
     scanf("%d", &limiteInferior);
     printf("Informe o valor do limite superior do intervalo: ");
     scanf("%d", &limiteSuperior);
 
+    // Quebrei a linha nos && pois é um mal costume manter linhas com mais que 100 caracteres, e torna o código mais legivel ( Costume de JavaScript )
     if (
       limiteInferior >= 100 &&
       limiteInferior <= 999 &&
@@ -41,8 +45,10 @@ int main(void)
             }
           if(ehPrimo)
           {
+            // Imprime o inicio de cada linha
             printf("%d ==> ", i);
 
+            // Separa os caracteres por variavel
             n3 = i % 10;
             n2 = ( i / 10 ) % 10;
             n1 = ( i / 100 ) % 10;
