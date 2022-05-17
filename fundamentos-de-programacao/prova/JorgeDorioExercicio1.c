@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
   int num = 0, soma = 0, somaTotal = 0, i = 0, j = 0, ultimoImpar = 1;
 
   printf("Informe um numero: ");
@@ -17,13 +18,15 @@ int main(void){
         printf("%d => ", i);
         for( j = 0 ; j < i ; j++)
           {
-            printf("%d ", ultimoImpar);
+            printf("%d + ", ultimoImpar);
             soma += ultimoImpar;
             somaTotal += ultimoImpar;
             ultimoImpar += 2;
           }
-        printf("= %d\n", soma);
+        printf("\b\b = %d\n", soma);
       }
     printf("\nSoma total dos impares = %d\n", somaTotal);
   }
+
+  return 0;
 }
