@@ -71,4 +71,6 @@ int main(void)
   } while( repetir == 's' || repetir == 'S' );
 
   printf("Fim do programa.\n");
+
+  return 0;
 }
